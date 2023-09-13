@@ -1,8 +1,9 @@
 import React from 'react';
+import './AboutMe.css';
 
 function AboutMe() {
     return (
-        <div>
+        <div className="about-me">
             <h2>About Me</h2>
             <img src="placeholder.jpg" alt="Picture of Holden Melander" />
             <p>
