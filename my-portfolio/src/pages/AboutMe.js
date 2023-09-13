@@ -5,7 +5,7 @@ function AboutMe() {
     return (
         <div className="about-me">
             <h2>About Me</h2>
-            <img src="placeholder.jpg" alt="Picture of Holden Melander" />
+            <img src="placeholder.jpg" alt="Holden Melander" />
             <p>
                 Hello! I'm Holden Melander, a web developer with a diverse background that combines my experience in retail management and my passion for web development. At 36 years old, I bring a wealth of real-world experience to the world of programming.
 
