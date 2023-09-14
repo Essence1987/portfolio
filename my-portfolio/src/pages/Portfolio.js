@@ -5,28 +5,36 @@ function Portfolio() {
     // Array of project objects with details
     const projects = [
         {
-            name: "Project 1",
-            description: "Description of Project 1.",
-            image: "project1.jpg",
-            liveLink: "https://example.com/project1",
-            githubLink: "https://github.com/yourusername/project1",
+            name: "Med Track",
+            description: "MedTrack is a groundbreaking application designed to transform the medical school experience for both students and faculty. It provides a streamlined platform for medical students to share their clinical rotation experiences, enabling continuous improvement and ensuring high-quality medical education.",
+            image: "/Medtrack.png",
+            liveLink: "https://limitless-sea-25303-7c8a3f9496d2.herokuapp.com/",
+            githubLink: "https://github.com/Essence1987/medtrack",
         },
         {
-            name: "Project 2",
-            description: "Description of Project 2.",
-            image: "project2.jpg",
-            liveLink: "https://example.com/project2",
-            githubLink: "https://github.com/yourusername/project2",
+            name: "Market Monitor",
+            description: "Introducing Market Monitor, your go-to companion for staying updated with the latest stock market information. Whether you're a seasoned investor, a day trader, or simply curious about stock market trends, this application provides you with quick and easy access to essential data.",
+            image: "/MarketMonitor.gif",
+            liveLink: "https://essence1987.github.io/MarketMonitor/",
+            githubLink: "https://github.com/Essence1987/MarketMonitor",
         },
+        // {
+        // Exmple of a project object
+        //     name: "Project title",
+        //     description: "Project Description",
+        //     image: "/image.gif",
+        //     liveLink: "Link to live website here",
+        //     githubLink: "link to github repo here",
+        // },
         // Add more projects here
     ];
 
     return (
-        <div>
+        <div className="portfolio">
             <h2>Portfolio</h2>
-            <div className="projects">
+            <div className="project-cards">
                 {projects.map((project, index) => (
-                    <div className="project" key={index}>
+                    <div className="project-card" key={index}>
                         <h3>{project.name}</h3>
                         <img src={project.image} alt={project.name} />
                         <p>{project.description}</p>

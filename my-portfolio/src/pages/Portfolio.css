@@ -1,62 +1,104 @@
 /* Apply styles to the entire "Portfolio" section */
 .portfolio {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    max-width: 800px;
-    text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 100vh;
+  /* Set height to 100% of viewport height */
+  overflow: auto;
+  /* Enable scrolling if content exceeds viewport height */
+}
+
+/* Style the heading */
+.portfolio h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* Style individual project cards within the "Portfolio" section */
+.project-card {
+  width: 50%;
+  /* Set each card to 50% width */
+  box-sizing: border-box;
+  /* Include padding and border in the width */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 10px;
+  display: inline-block;
+  /* Ensure cards are displayed inline */
+  vertical-align: top;
+  /* Align cards to the top */
+  text-align: left;
+  /* Align card content to the left */
+}
+
+/* Style project names */
+.project-card h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+/* Style project descriptions */
+.project-card p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Style project images */
+.project-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style project links (Live and GitHub) */
+.project-links {
+  margin-top: 20px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Style the container for project cards */
+.project-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* Distribute cards evenly */
+}
+
+/* Style individual project cards */
+.project-card {
+  flex-basis: calc(50% - 20px);
+  /* Two cards per row */
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+
+  /* Apply these styles on screens with a width of 400px or less */
+  .project-cards {
+    display: flex;
+    flex-direction: column;
+    /* Display cards in a column layout */
+    align-items: center;
+    /* Center-align cards horizontally */
   }
-  
-  /* Style the heading */
-  .portfolio h2 {
-    font-size: 24px;
-    color: #333;
+
+  .project-card {
+    width: 100%;
+    /* Set each card to 100% width on smaller screens */
+    margin: 10px 0;
+    /* Add vertical margin for spacing between cards */
   }
-  
-  /* Style individual projects within the "Portfolio" section */
-  .project {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style project names */
-  .project h3 {
-    font-size: 20px;
-    color: #333;
-  }
-  
-  /* Style project descriptions */
-  .project p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #555;
-  }
-  
-  /* Style project images */
-  .project img {
-    max-width: 100%;
-    border-radius: 4px;
-    margin: 20px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Style project links (Live and GitHub) */
-  .project-links {
-    margin-top: 20px;
-  }
-  
-  .project-links a {
-    display: inline-block;
-    margin-right: 10px;
-    font-size: 16px;
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  /* Apply any additional styles as needed */
-  
+}
