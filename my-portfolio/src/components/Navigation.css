@@ -1,0 +1,20 @@
+/* Style for the navigation links */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Highlight the active link */
+nav a.active {
+  color: #007bff;
+}

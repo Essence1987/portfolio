@@ -1,0 +1,82 @@
+.toggle-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    display: none;
+    /* Hide the (☰) button by default */
+}
+
+header {
+    position: fixed;
+    /* Make the header fixed */
+    top: 0;
+    /* Position it at the top of the viewport */
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    /* Set width to 100% to span the viewport width */
+    z-index: 100;
+    /* Ensure it appears above other content */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.active {
+    display: block;
+    /* Show the navigation when active */
+}
+
+/* Style for the header links */
+header ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 400px) {
+    header {
+        flex-direction: column;
+        /* Stack items vertically */
+        align-items: flex-start;
+        /* Align items to the left */
+    }
+
+    header ul {
+        flex-direction: column;
+        /* Stack links vertically */
+        align-items: flex-start;
+        /* Align links to the left */
+    }
+
+    .toggle-button {
+        display: block;
+        /* Show the (☰) button on smaller screens */
+    }
+
+    nav {
+        /* Remove the 'display: none;' property */
+        display: none;
+    }
+
+    nav.active ul {
+        display: flex;
+        /* Show the navigation links when active */
+    }
+}
