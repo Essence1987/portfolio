@@ -67,6 +67,11 @@
 
 /* Media query to stack cards vertically on smaller screens */
 @media (max-width: 767px) {
+  .about-me h2 {
+    font-size: 18px;
+    padding-top: 60px;
+  }
+  
   .about-me {
     flex-direction: column; /* Stack cards vertically */
     align-items: center; /* Center cards vertically */
@@ -85,4 +90,12 @@
   .about-me .text-card {
     width: 100%; /* Full width for text card */
   }
+}
+
+@media (max-width: 248px) {
+  .about-me h2 {
+    font-size: 18px;
+    padding-top: 90px;
+  }
+
 }

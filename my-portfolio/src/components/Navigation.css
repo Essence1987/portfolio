@@ -1,11 +1,7 @@
 /* Style for the navigation links */
 nav ul {
   list-style: none;
-  padding: 0;
-}
-
-nav ul li {
-  margin-bottom: 10px;
+  padding-right: 10px;
 }
 
 nav a {

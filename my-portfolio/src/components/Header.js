@@ -11,6 +11,9 @@ function Header() {
 
   return (
     <header>
+      <div className='header-title'>
+        <h1>Holden Melander</h1>
+      </div>
       <button onClick={toggleNav} className={`toggle-button ${showNav ? 'active' : ''}`}>
         ☰
       </button>
