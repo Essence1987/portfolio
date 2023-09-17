@@ -23,7 +23,7 @@ header {
     z-index: 100;
     /* Ensure it appears above other content */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
