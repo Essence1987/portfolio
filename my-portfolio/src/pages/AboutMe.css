@@ -75,6 +75,7 @@
   .about-me .image-card {
     width: 100%; /* Full width for image card */
     margin-right: 0; /* Remove margin to stack cards without spacing */
+    order: 2; /* Change order of image card to appear below text card */
   }
   
   .about-me .image-card img {
