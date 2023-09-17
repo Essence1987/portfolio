@@ -20,6 +20,7 @@ header {
     padding: 20px;
     width: 100%;
     /* Set width to 100% to span the viewport width */
+    max-height: 20px;
     z-index: 100;
     /* Ensure it appears above other content */
     display: flex;
@@ -56,6 +57,8 @@ header a {
         /* Stack items vertically */
         align-items: flex-start;
         /* Align items to the left */
+        max-height: -moz-fit-content;
+        max-height: fit-content;
     }
 
     header ul {
