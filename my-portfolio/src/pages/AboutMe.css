@@ -76,6 +76,10 @@
     width: 100%; /* Full width for image card */
     margin-right: 0; /* Remove margin to stack cards without spacing */
   }
+  
+  .about-me .image-card img {
+    height: auto; /* Allow the image to scale proportionally */
+  }
 
   .about-me .text-card {
     width: 100%; /* Full width for text card */

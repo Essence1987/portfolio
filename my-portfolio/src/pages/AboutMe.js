@@ -6,7 +6,7 @@ function AboutMe() {
         <div className="about-me">
             <h2>About Me</h2>
             <div className="image-card">
-                <img src="/selfpic.jpeg" alt="Holden Melander" />
+                <img src="/headshot.png" alt="Holden Melander" />
             </div>
             <div className="text-card">
                 <p>
