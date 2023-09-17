@@ -39,6 +39,7 @@
 .project-card h3 {
   font-size: 20px;
   color: #333;
+  text-align: center;
 }
 
 /* Style project descriptions */
@@ -86,7 +87,12 @@
 
 @media (max-width: 700px) {
 
-  /* Apply these styles on screens with a width of 400px or less */
+  /* Apply these styles on screens with a width of 700px or less */
+  .portfolio h2 {
+    font-size: 18px;
+    margin-top: 100px;
+  }
+
   .project-cards {
     display: flex;
     flex-direction: column;
@@ -100,5 +106,12 @@
     /* Set each card to 100% width on smaller screens */
     margin: 10px 0;
     /* Add vertical margin for spacing between cards */
+  }
+}
+
+@media (max-width: 267px) {
+  .portfolio h2 {
+    font-size: 18px;
+    margin-top: 120px;
   }
 }

@@ -13,13 +13,14 @@
     font-size: 24px;
     color: #333;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 /* Style paragraphs within the contact section */
 .contact p {
     font-size: 18px;
     color: #666;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* Style the contact form */
@@ -80,6 +81,11 @@
 
 /* Media query to make the form elements stack vertically on smaller screens */
 @media (max-width: 767px) {
+    .contact h2 {
+        font-size: 18px;
+        margin-top: 80px;
+      }
+    
     .contact form {
         align-items: flex-start;
     }
@@ -94,3 +100,10 @@
         width: 100%;
     }
 }
+
+@media (max-width: 267px) {
+    .contact h2 {
+      font-size: 18px;
+      margin-top: 100px;
+    }
+  }
