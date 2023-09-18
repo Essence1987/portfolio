@@ -8,7 +8,7 @@ function Resume() {
 
       {/* Downloadable resume link */}
       <a
-        href="resume.pdf"
+        href= "Resume.pdf"
         download
         className="resume-link" // Apply styles to the download link
       >
