@@ -8,7 +8,7 @@ function Resume() {
 
       {/* Downloadable resume link */}
       <a
-        href="./Resume.pdf" //
+        href="resume.pdf" //
         download // This attribute ensures the file is downloaded when clicked
       >
         Download My Resume
