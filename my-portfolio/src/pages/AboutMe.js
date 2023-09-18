@@ -2,11 +2,13 @@ import React from 'react';
 import './AboutMe.css';
 
 function AboutMe() {
+    const headshotImage = process.env.PUBLIC_URL + "/headshot.png";
+
     return (
         <div className="about-me">
             <h2>About Me</h2>
             <div className="image-card">
-                <img src="./headshot.png" alt="Holden Melander" />
+                <img src={headshotImage} alt="Holden Melander" />
             </div>
             <div className="text-card">
                 <p>
@@ -38,6 +40,7 @@ function AboutMe() {
                 </p>
 
             </div>
+            <div className='bottom-spacer'></div>
         </div>
     );
 }

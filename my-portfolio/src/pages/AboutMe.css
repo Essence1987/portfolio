@@ -1,6 +1,6 @@
 /* Apply styles to the entire "About Me" section */
 .about-me {
-  background-color: #f0f0f0;
+  background-color: white;
   padding: 0px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -15,8 +15,11 @@
 
 /* Style the heading */
 .about-me h2 {
-  font-size: 24px;
-  color: #333;
+  font-size: 30px;
+  font-weight: bolder;
+  background-color: white;
+  color: #531f9b;
+  -webkit-text-stroke: .5px #DAA520;
   margin-bottom: 20px; /* Add margin to separate heading from cards */
   width: 100%; /* Full width for the heading */
 }
@@ -24,7 +27,7 @@
 /* Style the card for the image */
 .about-me .image-card {
   flex: 1; /* Takes up 25% of the space */
-  background-color: #fff;
+  background-color: #531f9b;
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -42,7 +45,7 @@
 /* Style the card for the text */
 .about-me .text-card {
   flex: 3; /* Takes up 75% of the space */
-  background-color: #fff;
+  background-color: #531f9b;
   padding: 20px;
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -54,7 +57,8 @@
 .about-me .text-card p {
   font-size: .7;
   line-height: 1.6;
-  color: #555;
+  color: white;
+  -webkit-text-stroke: .5px black;
   margin: 19px; /* Remove margin to prevent extra spacing */
 }
 
@@ -64,6 +68,9 @@
   text-decoration: none;
 }
 
+.bottom-spacer {
+  padding-bottom: 43%;
+}
 
 /* Media query to stack cards vertically on smaller screens */
 @media (max-width: 767px) {
