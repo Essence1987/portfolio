@@ -15,8 +15,8 @@ header {
     /* Make the header fixed */
     top: 0;
     /* Position it at the top of the viewport */
-    background-color: #333;
-    color: #fff;
+    background-color: #531f9b;
+    color: #bdbdbd;
     padding: 20px;
     width: 100%;
     /* Set width to 100% to span the viewport width */
@@ -36,7 +36,7 @@ nav.active {
 .header-title {
     font-family:'Courier New', Courier, monospace;
     font-size: 12px;
-    color: #fff;
+    color: #DAA520;
     font-weight: bold;
 }
 
