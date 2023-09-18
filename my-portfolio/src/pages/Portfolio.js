@@ -28,7 +28,7 @@ function Portfolio() {
         {
             name: "Logo Generator",
             description: "Simplify logo creation by answering a few quick questions in your terminal. With this application, you can craft a personalized SVG logo based on your preferences. The SVG file generated can be effortlessly integrated into any project, providing you with a unique visual identity.",
-            image: "/LogoGenerator.gif",
+            image: "/LogoGenerator.png",
             liveLink: "",
             githubLink: "https://github.com/Essence1987/logos",
         },
