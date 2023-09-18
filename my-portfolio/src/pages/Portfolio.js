@@ -7,7 +7,7 @@ function Portfolio() {
         {
             name: "Med Track",
             description: "MedTrack is a groundbreaking application designed to transform the medical school experience for both students and faculty. It provides a streamlined platform for medical students to share their clinical rotation experiences, enabling continuous improvement and ensuring high-quality medical education.",
-            image: process.env.PUBLIC_URL + "/medtrack.png",
+            image: process.env.PUBLIC_URL + "/Medtrack.png",
             liveLink: "https://limitless-sea-25303-7c8a3f9496d2.herokuapp.com/",
             githubLink: "https://github.com/Essence1987/medtrack",
         },
