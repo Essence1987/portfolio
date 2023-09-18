@@ -6,7 +6,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
-  margin: 20px auto; /* Center the content horizontally */
+  margin: 80px auto; /* Center the content horizontally */
   margin-bottom: 80px;
   max-width: 800px; /* Set a maximum width to limit content width */
 }
@@ -65,23 +65,15 @@
 }
   
   /* Media query for responsive design */
-  @media (max-width: 565px) {
+  @media (max-width: 571px) {
     .resume-card h2 {
       font-size: 24px;
-      margin-bottom: 20px;
-      margin-top: 80px;
   }
     
     .resume-card {
       margin: 10px;
-      margin-bottom: 50px;
-    }
-  }
-
-  @media (max-width: 267px) {
-    .resume-card h2 {
-      font-size: 18px;
-      margin-top: 120px;
+      margin-bottom: 60px;
+      margin-top: 100px;
     }
   }
 

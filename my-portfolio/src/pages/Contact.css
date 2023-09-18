@@ -7,6 +7,7 @@
     margin: 20px auto;
     max-width: 800px;
     margin-bottom: 75px;
+    margin-top: 75px;
 }
 
 /* Style the heading */
@@ -89,10 +90,6 @@
 
 /* Media query to make the form elements stack vertically on smaller screens */
 @media (max-width: 767px) {
-    .contact h2 {
-        font-size: 18px;
-        margin-top: 80px;
-      }
     
     .contact form {
         align-items: flex-start;
@@ -109,9 +106,8 @@
     }
 }
 
-@media (max-width: 267px) {
-    .contact h2 {
-      font-size: 18px;
+@media (max-width: 571px) {
+    .contact {
       margin-top: 100px;
     }
   }
