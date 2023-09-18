@@ -35,9 +35,10 @@ nav.active {
 
 .header-title {
     font-family:'Courier New', Courier, monospace;
-    font-size: 12px;
+    font-size: 14px;
     color: #DAA520;
-    font-weight: bold;
+    -webkit-text-stroke: 1px #00000000;
+    font-weight: bolder;
 }
 
 /* Style for the header links */
