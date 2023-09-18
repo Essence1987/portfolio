@@ -64,6 +64,11 @@ header a {
     font-weight: bold;
 }
 
+.nav-menu ul li a.active {
+    color: #007bff; /* Change the color for active links */
+    /* Add any other styles you want for active links */
+  }
+
 /* Media query for smaller screens */
 @media (max-width: 571px) {
     header {
