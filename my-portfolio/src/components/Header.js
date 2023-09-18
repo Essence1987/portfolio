@@ -17,7 +17,7 @@ function Header() {
       <button onClick={toggleNav} className={`toggle-button ${showNav ? 'active' : ''}`}>
         ☰
       </button>
-      <nav className={showNav ? 'active' : ''}>
+      <nav className={`nav-menu ${showNav ? 'active' : ''}`}>
         <ul>
           <li>
             <Link to="/" onClick={toggleNav}>

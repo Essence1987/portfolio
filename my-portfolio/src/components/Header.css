@@ -28,13 +28,16 @@ header {
     align-items: center;
 }
 
-nav.active {
-    display: block;
-    /* Show the navigation when active */
+.nav-menu {
+    display: block; /* Hide the navigation by default */
+}
+
+.nav-menu.active {
+    display: block; /* Show the navigation when active */
 }
 
 .header-title {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 14px;
     color: #DAA520;
     -webkit-text-stroke: 1px #00000000;
@@ -84,12 +87,12 @@ header a {
         margin-right: 30px;
     }
 
-    nav {
+    .nav-menu {
         /* Remove the 'display: none;' property */
         display: none;
     }
 
-    nav.active ul {
+    .nav-menu.active ul {
         display: flex;
         /* Show the navigation links when active */
         flex-direction: column;
