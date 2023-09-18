@@ -24,7 +24,28 @@ function Portfolio() {
             image: "/Weather.gif",
             liveLink: "https://essence1987.github.io/Weather/",
             githubLink: "https://github.com/Essence1987/Weather",
-        }
+        },
+        {
+            name: "Logo Generator",
+            description: "Simplify logo creation by answering a few quick questions in your terminal. With this application, you can craft a personalized SVG logo based on your preferences. The SVG file generated can be effortlessly integrated into any project, providing you with a unique visual identity.",
+            image: "",
+            liveLink:"",
+            githubLink: "https://github.com/Essence1987/logos",
+        },
+        {
+            name: "Note Taker",
+            description: "Express.js: Note Taker is your go-to solution for efficient note creation, storage, and management. Whether you're a student, professional, or just someone who likes to keep their thoughts organized, this user-friendly application has got you covered.",
+            image: "/notes.gif",
+            liveLink: "",
+            githubLink: "https://github.com/Essence1987/notes",
+        },
+        {
+            name: "Password Generator",
+            description: "JavaScript: Password Generator is your trusted tool for creating strong and secure passwords effortlessly. Whether you need a robust password for your online accounts or want to enhance your digital security, this application has got you covered.",
+            image: "/PassWordGenerator.png",
+            liveLink: "https://essence1987.github.io/Password/",
+            githubLink: "https://github.com/Essence1987/Password",
+        },
         // {
         // Exmple of a project object
         //     name: "Project title",
