@@ -29,7 +29,7 @@ function Portfolio() {
             name: "Logo Generator",
             description: "Simplify logo creation by answering a few quick questions in your terminal. With this application, you can craft a personalized SVG logo based on your preferences. The SVG file generated can be effortlessly integrated into any project, providing you with a unique visual identity.",
             image: "/LogoGenerator.gif",
-            liveLink:"",
+            liveLink: "",
             githubLink: "https://github.com/Essence1987/logos",
         },
         {
@@ -57,7 +57,7 @@ function Portfolio() {
         // Add more projects here
     ];
 
-     return (
+    return (
         <div className="portfolio">
             <h2>Portfolio</h2>
             <div className="project-cards">
@@ -67,10 +67,8 @@ function Portfolio() {
                         <img src={project.image} alt={project.name} />
                         <p>{project.description}</p>
                         <div className="project-links">
-                            {project.liveLink && (
-                                <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Live</a>
-                            )}
-                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="link-box">Live</a>
+                            <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="link-box">GitHub</a>
                         </div>
                     </div>
                 ))}
