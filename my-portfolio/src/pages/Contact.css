@@ -1,18 +1,20 @@
 /* Apply styles to the entire contact section */
 .contact {
-    background-color: #f0f0f0;
+    background-color: #531f9b;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     max-width: 800px;
-    margin-bottom: 50px;
+    margin-bottom: 75px;
 }
 
 /* Style the heading */
 .contact h2 {
-    font-size: 24px;
-    color: #333;
+    font-size: 30px;
+    color: #DAA520;
+    -webkit-text-stroke: 1px black;
+    font-weight: bolder;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -20,7 +22,8 @@
 /* Style paragraphs within the contact section */
 .contact p {
     font-size: 18px;
-    color: #666;
+    color: white;
+    -webkit-text-stroke: .5px black;
     margin-bottom: 20px;
 }
 
@@ -40,6 +43,9 @@
 /* Style labels within form groups */
 .contact label {
     font-weight: bold;
+    color: white;
+    -webkit-text-stroke: .5px black;
+    font-weight: bolder;
 }
 
 /* Style input fields and textarea */
@@ -61,6 +67,7 @@
 /* Style error messages */
 .contact .error {
     color: red;
+    -webkit-text-stroke: .1px white;
     font-size: 14px;
 }
 
