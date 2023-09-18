@@ -1,6 +1,8 @@
 /* Apply styling to the entire Resume section */
 .resume-card {
-  background-color: #fff;
+  background-color:#531f9b;
+  color: white;
+  -webkit-text-stroke: .5px black;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -11,7 +13,10 @@
   
   /* Style headings */
   .resume-card h2 {
-    color: #333;
+    font-size: 30px;
+    color: #DAA520;
+    -webkit-text-stroke: 1px black;
+    font-weight: bolder;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -38,12 +43,31 @@
   .resume-card li {
     margin-bottom: 5px;
   }
+
+  /* Resume Link */
+.resume-link {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: white;
+  color: #333;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+/* Resume Link on Hover */
+.resume-link:hover {
+  background-color: #333;
+  color: #fff;
+}
   
   /* Media query for responsive design */
   @media (max-width: 565px) {
     .resume-card h2 {
       font-size: 24px;
-      color: #333;
       margin-bottom: 20px;
       margin-top: 80px;
   }
