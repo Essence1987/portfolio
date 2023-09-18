@@ -57,7 +57,7 @@ function Portfolio() {
         // Add more projects here
     ];
 
-    return (
+     return (
         <div className="portfolio">
             <h2>Portfolio</h2>
             <div className="project-cards">
@@ -67,7 +67,9 @@ function Portfolio() {
                         <img src={project.image} alt={project.name} />
                         <p>{project.description}</p>
                         <div className="project-links">
-                            <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Live</a>
+                            {project.liveLink && (
+                                <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Live</a>
+                            )}
                             <a href={project.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a>
                         </div>
                     </div>
