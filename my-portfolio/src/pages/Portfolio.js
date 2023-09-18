@@ -45,6 +45,8 @@ function Portfolio() {
                     </div>
                 ))}
             </div>
+            <div className='bottom-spacer'>
+            </div>
         </div>
     );
 }

@@ -101,6 +101,10 @@
     /* Center-align cards horizontally */
   }
 
+  .bottom-spacer {
+    margin-bottom: 35px;
+  }
+
   .project-card {
     width: 100%;
     /* Set each card to 100% width on smaller screens */
