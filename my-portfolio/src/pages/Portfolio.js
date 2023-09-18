@@ -21,7 +21,7 @@ function Portfolio() {
         {
             name: "Weather Dashboard",
             description: "The Weather Dashboard is your tool for staying up-to-date with weather conditions. Whether you're planning a weekend getaway or just want to know the forecast for your local area, this user-friendly dashboard has you covered.",
-            image: "./Weather.gif",
+            image: "./weather.gif",
             liveLink: "https://essence1987.github.io/Weather/",
             githubLink: "https://github.com/Essence1987/Weather",
         },
