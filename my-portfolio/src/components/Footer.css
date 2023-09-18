@@ -1,0 +1,37 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the Font Awesome icons */
+  .footer i {
+    margin-right: 5px;
+  }
+
+  @media (max-width: 297px) {
+    .footer {
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 241px) {
+    .footer {
+      font-size: 10px;
+    }
+  }
+  

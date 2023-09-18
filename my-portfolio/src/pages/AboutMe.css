@@ -1,7 +1,7 @@
 /* Apply styles to the entire "About Me" section */
 .about-me {
   background-color: #f0f0f0;
-  padding: 20px;
+  padding: 0px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin: 20px auto;

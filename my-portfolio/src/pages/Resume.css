@@ -5,6 +5,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: 20px;
+    margin-bottom: 50px;
   }
   
   /* Style headings */
@@ -48,6 +49,7 @@
     
     .resume-card {
       margin: 10px;
+      margin-bottom: 50px;
     }
   }
 
@@ -57,4 +59,6 @@
       margin-top: 120px;
     }
   }
+
+
   
