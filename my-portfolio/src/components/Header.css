@@ -51,6 +51,7 @@ header ul {
     display: flex;
     flex: 1;
     justify-content: center;
+    margin-right: 20px;
 }
 
 header ul li {
@@ -64,7 +65,7 @@ header a {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 565px) {
+@media (max-width: 571px) {
     header {
         flex-direction: row;
         justify-content: space-between;
@@ -79,6 +80,10 @@ header a {
         /* Stack links vertically */
         align-items: flex-start;
         /* Align links to the left */
+    }
+
+    .header-title {
+        font-size: 10px;
     }
 
     .toggle-button {

@@ -4,7 +4,7 @@
   padding: 0px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
+  margin: 40px auto;
   max-width: 100%; /* Change max-width to 100% to take up the entire screen width */
   display: flex; /* Use flexbox to arrange image and text side by side */
   flex-wrap: wrap; /* Allow wrapping on smaller screens */
@@ -32,6 +32,7 @@
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-right: 20px; /* Add margin to separate cards */
+  margin-left: 20px;
   width: 25%; /* 25% width for image card */
   text-align: center; /* Center image and text within the card */
 }
@@ -48,6 +49,7 @@
   background-color: #531f9b;
   padding: 20px;
   border-radius: 4px;
+  margin-right: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 75%; /* 75% width for text card */
   text-align: left; /* Align text to the left */
@@ -69,13 +71,15 @@
 }
 
 .bottom-spacer {
-  padding-bottom: 43%;
+  display: block;
+  padding: 20px;
 }
 
 /* Media query to stack cards vertically on smaller screens */
 @media (max-width: 767px) {
   .about-me h2 {
-    font-size: 18px;
+    margin-top: -30px;
+    font-size: 40px;
     padding-top: 60px;
   }
   
@@ -86,7 +90,7 @@
 
   .about-me .image-card {
     width: 100%; /* Full width for image card */
-    margin-right: 0; /* Remove margin to stack cards without spacing */
+    margin: 0; /* Remove margin to stack cards without spacing */
     order: 2; /* Change order of image card to appear below text card */
   }
   
@@ -96,9 +100,20 @@
 
   .about-me .text-card {
     width: 100%; /* Full width for text card */
+    margin: 0; /* Remove margin to stack cards without spacing */;
   }
 }
 
+.bottom-spacer {
+  display: none;
+}
+
+@media screen and (max-width: 571px) {
+  .about-me h2 {
+    padding-top: 100px;
+  }
+}
+  
 @media (max-width: 248px) {
   .about-me h2 {
     font-size: 18px;
