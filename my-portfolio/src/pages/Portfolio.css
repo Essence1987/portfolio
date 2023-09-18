@@ -1,6 +1,6 @@
 /* Apply styles to the entire "Portfolio" section */
 .portfolio {
-  background-color: #f0f0f0;
+  background-color: white;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -13,12 +13,16 @@
 
 /* Style the heading */
 .portfolio h2 {
-  font-size: 24px;
-  color: #333;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #531f9b;
+  -webkit-text-stroke: .5px #DAA520;
+  background-color: white;
 }
 
 /* Style individual project cards within the "Portfolio" section */
 .project-card {
+  background-color: #531f9b;
   width: 50%;
   /* Set each card to 50% width */
   box-sizing: border-box;
@@ -37,8 +41,10 @@
 
 /* Style project names */
 .project-card h3 {
-  font-size: 20px;
-  color: #333;
+  font-size: 24px;
+  color: #DAA520;
+  -webkit-text-stroke: 1px black;
+  font-weight: bolder;
   text-align: center;
 }
 
@@ -46,7 +52,8 @@
 .project-card p {
   font-size: 16px;
   line-height: 1.6;
-  color: #555;
+  color: white;
+  -webkit-text-stroke: .5px black;
 }
 
 /* Style project images */
@@ -94,6 +101,8 @@
   margin-right: 10px;
   margin-bottom: 10px;
   text-decoration: none;
+  background-color: white;
+  font-weight: bolder;
   color: #333;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
@@ -102,6 +111,10 @@
 .link-box:hover {
   background-color: #333;
   color: #fff;
+}
+
+.bottom-spacer {
+  margin-bottom: 20px;
 }
 
 @media (max-width: 700px) {
