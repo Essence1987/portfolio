@@ -1,12 +1,13 @@
 /* Apply styling to the entire Resume section */
 .resume-card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    margin: 20px;
-    margin-bottom: 50px;
-  }
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 20px auto; /* Center the content horizontally */
+  margin-bottom: 80px;
+  max-width: 800px; /* Set a maximum width to limit content width */
+}
   
   /* Style headings */
   .resume-card h2 {
