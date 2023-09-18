@@ -14,7 +14,7 @@ function Portfolio() {
         {
             name: "Market Monitor",
             description: "Introducing Market Monitor, your go-to companion for staying updated with the latest stock market information. Whether you're a seasoned investor, a day trader, or simply curious about stock market trends, this application provides you with quick and easy access to essential data.",
-            image: "/MarketMonitor.gif",
+            image: "/MarketMonitor.png",
             liveLink: "https://essence1987.github.io/MarketMonitor/",
             githubLink: "https://github.com/Essence1987/MarketMonitor",
         },
