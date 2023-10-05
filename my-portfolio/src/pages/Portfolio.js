@@ -5,6 +5,13 @@ function Portfolio() {
     // Array of project objects with details
     const projects = [
         {
+            name: "Magic Mania",
+            description: "Magic Mania is used to search Magic the Gathering for cards and keywords. By saving cards to the User Deck you can refer to them on the fly, whether that\'s in the heat of battle or planning your perfect battle strategy. Magic Mania is perfect for players of all skill and age.",
+            image: process.env.PUBLIC_URL + "/MagicMania.png",
+            liveLink: "https://maniamagic-2b772cb3f9e0.herokuapp.com/",
+            githubLink: "https://github.com/mayaj0yce/magicMania",
+        },
+        {
             name: "Med Track",
             description: "MedTrack is a groundbreaking application designed to transform the medical school experience for both students and faculty. It provides a streamlined platform for medical students to share their clinical rotation experiences, enabling continuous improvement and ensuring high-quality medical education.",
             image: process.env.PUBLIC_URL + "/Medtrack.png",
